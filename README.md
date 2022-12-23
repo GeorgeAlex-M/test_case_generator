@@ -80,4 +80,4 @@ generator.write_to_excel()
 This will generate and write the test cases to the specified Excel file, using the test techniques and inputs specified in the configuration data.
 
 # License
-Test Case Generator is licensed under the MIT License. See the [LICENSE](https://github.com/EngiN33R/lua-shmem/blob/master/LICENSE) file for details.
+Test Case Generator is licensed under the MIT License. See the [LICENSE](https://github.com/GeorgeAlex-M/test_case_generator/blob/main/LICENSE) file for details.
