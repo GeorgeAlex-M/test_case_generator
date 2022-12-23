@@ -1,10 +1,10 @@
 # Test Case Generator
 A Python library for generating and writing test cases to an Excel file.
 
-#Installation
+# Installation
 To install Test Case Generator, use pip:
 
-pip install test-case-generator
+```pip install test-case-generator```
 
 # Dependencies
 Test Case Generator requires the following Python packages:
