@@ -50,14 +50,16 @@ To generate and write the test cases to the Excel file, create an instance of th
 generator = TestCaseGenerator(config)
 
 # Generate and write the test cases to the Excel file
-generator.write_to_excel()```
+generator.write_to_excel()
+```
 
 This will generate and write the test cases to the specified Excel file, using the test techniques and inputs specified in the configuration data.
 
 # Example
 Here's an example of how you might use Test Case Generator in your code:
 
-```from test_case_generator import Config, TestTechnique, TestCaseGenerator
+```
+from test_case_generator import Config, TestTechnique, TestCaseGenerator
 
 # Create a list of TestTechnique objects
 test_techniques = [
@@ -72,7 +74,8 @@ config = Config(test_techniques=test_techniques, output_path="test_cases.xlsx")
 generator = TestCaseGenerator(config)
 
 # Generate and write the test cases to the Excel file
-generator.write_to_excel()```
+generator.write_to_excel()
+```
 
 This will generate and write the test cases to the specified Excel file, using the test techniques and inputs specified in the configuration data.
 
