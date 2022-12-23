@@ -21,9 +21,9 @@ First, create a list of TestTechnique objects, each representing a test techniqu
 
 | Variable | Description |
 | - | - |
-| `technique_type (str)` | The type of test technique (e.g. "Boundary Value Analysis", "Equivalence Partitioning) |
-| `technique (str)` | The name of the test technique (e.g. "BVA", "EP") |
-| `name (str)` | The name of the test technique (e.g. "Test Technique 1", "Test Technique 2") |
+| `technique_type (str)` | The type of test technique (e.g. "Dynamic", "Static) |
+| `technique (str)` | The type of the test technique (e.g. "Black-Box", "White-Box") |
+| `name (str)` | The name of the test technique (e.g. "Boundary Value Analysis", "Equivalence Partitioning") |
 | `description (str)` | A description of the test technique |
 | `num_test_cases (int)` | The number of test cases to be generated for this test technique |
 | `coverage (str)` | The coverage provided by this test technique (e.g. "100%", "90%") |
